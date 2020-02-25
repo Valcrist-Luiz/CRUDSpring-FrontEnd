@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+
+
 
 import './App.css';
+
+
 
 class App extends Component {
 
@@ -19,13 +22,14 @@ class App extends Component {
     render() {
         const { Usuarios, isLoading } = this.state;
 
-
         if (isLoading)
             return (<div>Carregando...</div>);
 
         return (
 
-            <main><h2>Lista de Usuários</h2>
+            <main>
+                <h2>Lista de Usuários</h2>
+
                 <button type="submit">Novo Usuário</button>
 
                 <div>
@@ -60,14 +64,15 @@ class App extends Component {
                                 <td>{user.cidade}</td>
                                 <td>{user.uf}</td>
                                 <td>{user.complemento}</td>
-                                <td> <a href="/atualizar">Editar</a></td>
-                                <td> <a href="/deletar">Apagar</a></td>
+                                <td> <button className="btEditar">Editar</button></td>
+                                <td><button className="btDeletar" >Deletar</button></td>
                             </tr>
 
                         ))}
                     </table>
                 </div>
             </main>
+
 
 
         );

@@ -40,3 +40,39 @@ main button[type=submit]{
   main button[type=submit]:hover{
     background: #527c50;
   }
+
+  table td .btEditar{
+    height: 30px;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background: #6A9D67;  
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+
+  table td .btEditar:hover{
+    background: #527c50;
+}
+
+table td .btDeletar{
+    height: 30px;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background: #ff3333;  
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+
+  table td .btDeletar:hover{
+    background: #cc0000;
+}
