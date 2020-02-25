@@ -39,7 +39,7 @@ class App extends Component {
                             <th>Nome</th>
                             <th>CPF</th>
                             <th>Login</th>
-                            <th>Senha</th>
+
                             <th>Papel</th>
                             <th>CEP</th>
                             <th>Logradouro</th>
@@ -56,7 +56,7 @@ class App extends Component {
                                 <td>{user.nome}</td>
                                 <td>{user.cpf}</td>
                                 <td>{user.login}</td>
-                                <td>{user.senha}</td>
+
                                 <td>{user.papel}</td>
                                 <td>{user.cep}</td>
                                 <td>{user.logradouro}</td>
