@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+*{
+    background-color: #ebebe0;
+    
+}
+
+main{
+    font-family: Roboto, sans-serif;
+    padding: 2%;
+}
+
+main h2{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+main table{
+    background-color:#b8b894;
+    width: 100%;
+}
+
+
+main button[type=submit]{
+    height: 30px;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background: #6A9D67;  
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s;
+  }
+  
+  main button[type=submit]:hover{
+    background: #527c50;
+  }
