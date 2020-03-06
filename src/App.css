@@ -23,6 +23,11 @@ main table{
 }
 
 
+.tabelaTelefone{
+  width: 100%;
+}
+
+
 main button[type=submit]{
     height: 30px;
     border: 0;
